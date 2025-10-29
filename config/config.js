@@ -1,7 +1,6 @@
 require('dotenv').config();
 
 
-{
    const development = {
     username: process.env.DB_USERNAME,
     password: process.env.DB_PASSWORD,
@@ -26,8 +25,7 @@ require('dotenv').config();
     host: process.env.DB_HOST,
     PORT: process.env.DB_PORT,
     dialect: process.env.DB_DIALECT
-  }
-};
+  };
 
 module.exports = { 
   development, 
